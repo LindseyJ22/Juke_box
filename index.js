@@ -37,16 +37,6 @@ class Jukebox {
 	}
 }//ends jukebox
 	
-
-// class Song {
-// 	constructor(){
-// 		this.songs = [];
-// 	}
-	
-		
-// }
-
-
 let music = new Jukebox();
 music.addSong('rock_on.mp3');
 music.addSong('say_something.mp3');

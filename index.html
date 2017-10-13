@@ -6,12 +6,22 @@
 		<link rel="stylesheet" href="index.css">
 	</head>
 	<body>
+		<div class= "list_of_songs">
+			<ul class= "list">
+				<h4>Songs you can enter into the form</h4>
+				<li>rock_on.mp3</li>
+				<li>say_something.mp3</li>
+			</ul>
+			
+		</div>
 		<div class= "controls">
 			<button id="playButton">Play</button>
 			<button id="stopButton">Stop</button>
-			<button id="pauseButton">Pause</button>
+			<button id="pauseButton">Pause</button><br/>
+			<input id="songName" type="text" placeholder= "enter song name">
+			<button id="submitButton">submit</button>
 		</div>
 		<script src="index.js"></script>
-		<audio id= "rockOn" src="rock_on.mp3"></audio>
+		<!-- <audio controls id= "rockOn" src="rock_on.mp3"></audio> -->
 	</body>
 </html>

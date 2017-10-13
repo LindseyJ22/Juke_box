@@ -1,7 +1,6 @@
 class Jukebox {
 	constructor(){
 		this.songlist = [];
-		// this.currentIndex = [0];
 		this.currentSong;
 	}
 	addSong(song){
@@ -38,15 +37,6 @@ class Jukebox {
 }//ends jukebox
 	
 
-// class Song {
-// 	constructor(){
-// 		this.songs = [];
-// 	}
-	
-		
-// }
-
-
 let music = new Jukebox();
 music.addSong('rock_on.mp3');
 music.addSong('say_something.mp3');
@@ -65,5 +55,3 @@ document.getElementById('stopButton').onclick = function(){
 document.getElementById('submitButton').onclick = function(){ 
 	music.findSong(document.getElementById('songName').value);
 };
-
-// document.getElementById('controls').innerHTML = song1.displaySong();

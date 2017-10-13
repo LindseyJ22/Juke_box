@@ -49,8 +49,9 @@ class Jukebox {
 
 let music = new Jukebox();
 music.addSong('rock_on.mp3');
-music.loadSong(music.songlist[0]);
 music.addSong('say_something.mp3');
+music.addSong('how_great_thou_art.mp3');
+music.loadSong(music.songlist[0]);
 
 document.getElementById('playButton').onclick = function(){ 
 	music.songPlay();
